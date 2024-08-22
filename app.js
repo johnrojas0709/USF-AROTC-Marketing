@@ -19,9 +19,9 @@ app.set("port", process.env.PORT || 3000);
 app.set("views", path.join(__dirname, "views"));//specify views directory
 app.set("view engine", "ejs"); //specify view engine
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieparser());
+//app.use(cookieparser());
 app.use(session({
-    secret: "lalalalala",
+    secret: "vasjrgoiwnvisnae",
     resave1: false,
     saveUninitialized: false
 }));
